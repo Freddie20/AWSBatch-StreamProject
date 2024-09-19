@@ -56,10 +56,6 @@ Key Steps:
 - Set up Kinesis Firehose to load data streams into an S3 bucket after invoking the Lambda function for recommendation inference.
 - Lambda function performs real-time transformations and stores recommendations in S3.
 
-Refer to the architectural diagram for the streaming workflow:
-
-![Streaming Pipeline](./images/BatchStreamPipeline.png)
-
 ---
 
 ## Technologies Used
@@ -120,10 +116,6 @@ terraform plan
 terraform apply
 ```
 
-*Note*: The command `terraform apply` will prompt you to reply `yes` here:
-
-![terraform_plan](images/terraform_plan.png)
-
 The transformed data has the following schema:    
 
 ![schema_after_ETL](./images/schema_after_ETL.png)
@@ -131,7 +123,8 @@ The transformed data has the following schema:
 ### 3. Vector Database Configuration
 
 - Set up the PostgreSQL Vector DB and upload the embedding files.
-Sample s3 bucker folder structure for the trained model:
+
+Sample S3 bucker folder structure for the trained model:
 
 ```bash
 .
@@ -186,10 +179,13 @@ To use this project:
 Author: ✍️
 
 Freda Victor
-[Project Blog](https://hasura.io/blog/top-psql-commands-and-flags-you-need-to-know-postgresql/)
+
+[Project Blog](https://hasura.io/blog/
+top-psql-commands-and-flags-you-need-to-know-postgresql/)
+
 September 2024
 
-### Resources
+### Readings
 - [Postgres flags](https://hasura.io/blog/top-psql-commands-and-flags-you-need-to-know-postgresql/)
 
 - `classicmodels` [MySQL Sample Database](https://www.mysqltutorial.org/mysql-sample-database.aspx) 
