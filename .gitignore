@@ -18,4 +18,5 @@ __pycache__/
 
 # Ignore MacOS system files
 .DS_Store
+scripts/C1_W4_Assignment.md
 
