@@ -180,8 +180,7 @@ Author: ✍️
 
 Freda Victor
 
-[Project Blog](https://hasura.io/blog/
-top-psql-commands-and-flags-you-need-to-know-postgresql/)
+[Project Blog](https://learndataengineering.hashnode.dev/building-a-recommender-system-on-aws-batch-and-streaming-pipelines)
 
 September 2024
 
